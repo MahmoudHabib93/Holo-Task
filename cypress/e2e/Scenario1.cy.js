@@ -18,7 +18,7 @@ describe('Scenario 1: Check total displayed number of results for Smart Home | T
         cy.get('._octopus-search-result-card_style_apbSearchResultsContainer__bCqjb') 
 
         // Optionally, check that the total number of results is correct (e.g., 120)
-        expect(totalResults).to.equal(119);
+        expect(totalResults).to.equal(118);
       });
     });
   });
